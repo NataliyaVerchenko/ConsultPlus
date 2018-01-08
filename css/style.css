@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Domine:400,700|Montserrat:400,500,700&subset=cyrillic-ext,latin-ext');
+
+/*
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Domine', serif;
+
+
+*/
+
+.header-wrapper {
+    background: rgba(42, 42, 42, 0.84) url("../img/layer-1.png") no-repeat center;
+    background-size: 100% 100%;
+
+}
+
+.header-padding {
+    padding: 20px 0 100px;
+}
+
+.logo {
+    display: block;
+    padding-top: 10px;
+}
+
+.navbar {
+    padding-top: 10px;
+}
+
+.phone {
+    display: inline-block;
+    padding-top: 20px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.nav-main {
+    font-size: 0;
+    text-transform: uppercase;
+}
+
+.nav-main li a {
+    font-family: 'Montserrat', sans-serif;
+    color: #e2e2e2;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+button.btn-phone {
+    background: none;
+    border: none;
+
+}
+
+.btn-mail {
+    border-radius: 50%;
+    background: #72abff;
+    border: none;
+}
+
+button .btn-mail {
+    color: #e2e2e2;
+}
+
+.btn-phone .glyphicon-earphon {
+    color: #fff;
+}
+
+button .glyphicon {
+    color: #03b6e7;
+}
+
+.img-bg {
+    display: block;
+    height: 282px;
+    background: orange;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.slider-padding {
+    padding-bottom: 100px;
+}
+
+.header-title {
+    padding: 40px 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-title h1 {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -2.4px;
+}
+
+.header-title span {
+
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.wrapper-inner__img-bg {
+
+    position: absolute;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.wrapper-inner__img-bg span {
+    display: block;
+}
+
+.icon-category {
+    font-size: 74px;
+}
+
+.name-category {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
