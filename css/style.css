@@ -791,3 +791,73 @@ input[type="email"]:hover {
 #logoCarousel .carousel-control {
     left: -53px;
 }
+#projectsCarousel .carousel-indicators {
+    /* left: 0; */
+    right: 6%;
+    z-index: 15;
+    width: 75%;
+    margin-right: -2%;
+    text-align: right;
+
+}
+#projectsCarousel .carousel-indicators li {
+    position: relative;
+
+    border: 1px solid #0aff5f;
+
+}
+#projectsCarousel .carousel-indicators .active{
+    background: none;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+
+}
+/*SECTION I*/
+.section-i .container{
+    position: relative;
+}
+
+.quote_icon{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+
+}
+#testimonialCarousel .carousel-inner{
+    padding: 10px 0 215px;
+}
+#testimonialCarousel img{
+    width: 7%;
+    margin: 70px auto;
+
+}
+
+
+#testimonialCarousel .carousel-inner{
+
+}
+#testimonialCarousel .carousel-caption {
+    right: 20%;
+    left: 20%;
+    top: 75%;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0);
+}
+
+/*
+.quote_icon::before,.quote_icon::after{
+    position: absolute;
+    font-size: 198pt;
+    color: #0031e259;
+!*    background: url("../img/quote-icon.png") no-repeat center;*!
+}
+.quote_icon::before {
+    content: '';
+    top: -42px;
+    left: -35px;
+!*    background: url("../img/quote-icon.png") no-repeat center;*!
+}*/

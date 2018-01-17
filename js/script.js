@@ -1,5 +1,6 @@
 $(document).ready(function () {
     $('[data-toggle="tooltip"]').tooltip();
+    $('#testimonialCarousel').carousel({ interval: 12000 });
 
     $('#logoCarousel').find('.item').each(function () {
         var next = $(this).next();
