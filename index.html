@@ -16,162 +16,176 @@
     <title>Bootstrap Template</title>
 </head>
 <body>
-<div class="header-wrapper">
-    <header class="header">
-        <div class="container">
-            <div class="row header-padding">
-                <div class="col-md-3">
-                    <a class="logo" href=""><img src="img/logo.png" alt=""></a>
-                </div>
-                <div class="col-md-6">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+<div class="navbar-wrapper">
+    <div class="container">
+        <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <nav class="navbar">
-                            <ul class="nav nav-pills nav-main nav-consult">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about-us.html">about us</a></li>
-                                <li><a href="industry.html">industry</a></li>
-                                <li><a href="services.html">services</a></li>
-                                <li><a href="pages.html">pages</a></li>
-                                <li><a href="contact-us.html">Contact us</a></li>
+                    <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                    <ul class="nav navbar-nav pull-right">
+                        <li class="activee"><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">about us</a></li>
+                        <li><a href="industry.html">industry</a></li>
+                        <li><a href="services.html">services</a></li>
+                        <li><a href="pages.html">pages</a></li>
+                        <li>
+                            <div class="navbar-phone">
+                                <button class="btn-phone"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                                </button>
+                                <span class="phone">+91 5685 6664 555</span>
+                                <button class="btn-mail"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                                </button>
+                            </div>
+                        </li>
+                     <!--   <li><a href="contact-us.html">Contact us</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Nav header</li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
                             </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="pull-right">
-                        <button class="btn-phone"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-                        </button>
-                        <span class="phone">+91 5685 6664 555</span>
-                        <button class="btn-mail"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-                        </button>
-                    </div>
+                        </li>-->
+                    </ul>
                 </div>
             </div>
-            <div class="header-title text-center">
-                <span>We are leading consulting company</span>
-                <h1>Choose your industry</h1>
-            </div>
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                </ol>
+        </nav>
+    </div>
+</div>
+<div class="header-wrapper">
+    <header class="header" id="header">
 
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                    <div class="item  slider-padding active">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="img-bg" src="" alt="">
-                                    <div class="wrapper-inner__img-bg  text-center">
-                                        <span class="icon-category glyphicon glyphicon-list-alt"></span>
-                                        <span class="name-category">Education</span>
-                                    </div>
+    </header>
+    <div class="header-carousel container">
+        <div class="header-title text-center">
+            <span>We are leading consulting company</span>
+            <h1>Choose your industry</h1>
+        </div>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item  slider-padding active">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="img-bg" src="" alt="">
+                                <div class="wrapper-inner__img-bg  text-center">
+                                    <span class="icon-category glyphicon glyphicon-list-alt"></span>
+                                    <span class="name-category">Education</span>
                                 </div>
                             </div>
-                            <div class="col-md-3">
-                                <div class="img-bg" src="" alt="">
-                                    <div class="wrapper-inner__img-bg  text-center">
-                                        <span class="icon-category glyphicon glyphicon-list-alt"></span>
-                                        <span class="name-category">Education</span>
-                                    </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="img-bg" src="" alt="">
+                                <div class="wrapper-inner__img-bg  text-center">
+                                    <span class="icon-category glyphicon glyphicon-list-alt"></span>
+                                    <span class="name-category">Education</span>
                                 </div>
                             </div>
-                            <div class="col-md-3">
-                                <div class="img-bg" src="" alt="">
-                                    <div class="wrapper-inner__img-bg  text-center">
-                                        <span class="icon-category glyphicon glyphicon-briefcase"></span>
-                                        <span class="name-category">Education</span>
-                                    </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="img-bg" src="" alt="">
+                                <div class="wrapper-inner__img-bg  text-center">
+                                    <span class="icon-category glyphicon glyphicon-briefcase"></span>
+                                    <span class="name-category">Education</span>
                                 </div>
                             </div>
-                            <div class="col-md-3">
-                                <div class="img-bg" src="" alt="">
-                                    <div class="wrapper-inner__img-bg  text-center">
-                                        <span class="icon-category glyphicon glyphicon-picture"></span>
-                                        <span class="name-category">Education</span>
-                                    </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="img-bg" src="" alt="">
+                                <div class="wrapper-inner__img-bg  text-center">
+                                    <span class="icon-category glyphicon glyphicon-picture"></span>
+                                    <span class="name-category">Education</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="item  slider-padding">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="img-bg" src="" alt="">
-                                    <div class="wrapper-inner__img-bg  text-center">
-                                        <span class="icon-category glyphicon glyphicon-list-alt"></span>
-                                        <span class="name-category">Education</span>
-                                    </div>
+                </div>
+                <div class="item  slider-padding">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="img-bg" src="" alt="">
+                                <div class="wrapper-inner__img-bg  text-center">
+                                    <span class="icon-category glyphicon glyphicon-list-alt"></span>
+                                    <span class="name-category">Education</span>
                                 </div>
                             </div>
-                            <div class="col-md-3">
-                                <div class="img-bg" src="" alt="">
-                                    <div class="wrapper-inner__img-bg  text-center">
-                                        <span class="icon-category glyphicon glyphicon-list-alt"></span>
-                                        <span class="name-category">Education</span>
-                                    </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="img-bg" src="" alt="">
+                                <div class="wrapper-inner__img-bg  text-center">
+                                    <span class="icon-category glyphicon glyphicon-list-alt"></span>
+                                    <span class="name-category">Education</span>
                                 </div>
                             </div>
-                            <div class="col-md-3">
-                                <div class="img-bg" src="" alt="">
-                                    <div class="wrapper-inner__img-bg  text-center">
-                                        <span class="icon-category glyphicon glyphicon-briefcase"></span>
-                                        <span class="name-category">Education</span>
-                                    </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="img-bg" src="" alt="">
+                                <div class="wrapper-inner__img-bg  text-center">
+                                    <span class="icon-category glyphicon glyphicon-briefcase"></span>
+                                    <span class="name-category">Education</span>
                                 </div>
                             </div>
-                            <div class="col-md-3">
-                                <div class="img-bg" src="" alt="">
-                                    <div class="wrapper-inner__img-bg  text-center">
-                                        <span class="icon-category glyphicon glyphicon-picture"></span>
-                                        <span class="name-category">Education</span>
-                                    </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="img-bg" src="" alt="">
+                                <div class="wrapper-inner__img-bg  text-center">
+                                    <span class="icon-category glyphicon glyphicon-picture"></span>
+                                    <span class="name-category">Education</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="item  slider-padding">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="img-bg" src="" alt="">
-                                    <div class="wrapper-inner__img-bg  text-center">
-                                        <span class="icon-category glyphicon glyphicon-list-alt"></span>
-                                        <span class="name-category">Education</span>
-                                    </div>
+                </div>
+                <div class="item  slider-padding">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="img-bg" src="" alt="">
+                                <div class="wrapper-inner__img-bg  text-center">
+                                    <span class="icon-category glyphicon glyphicon-list-alt"></span>
+                                    <span class="name-category">Education</span>
                                 </div>
                             </div>
-                            <div class="col-md-3">
-                                <div class="img-bg" src="" alt="">
-                                    <div class="wrapper-inner__img-bg  text-center">
-                                        <span class="icon-category glyphicon glyphicon-list-alt"></span>
-                                        <span class="name-category">Education</span>
-                                    </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="img-bg" src="" alt="">
+                                <div class="wrapper-inner__img-bg  text-center">
+                                    <span class="icon-category glyphicon glyphicon-list-alt"></span>
+                                    <span class="name-category">Education</span>
                                 </div>
                             </div>
-                            <div class="col-md-3">
-                                <div class="img-bg" src="" alt="">
-                                    <div class="wrapper-inner__img-bg  text-center">
-                                        <span class="icon-category glyphicon glyphicon-briefcase"></span>
-                                        <span class="name-category">Education</span>
-                                    </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="img-bg" src="" alt="">
+                                <div class="wrapper-inner__img-bg  text-center">
+                                    <span class="icon-category glyphicon glyphicon-briefcase"></span>
+                                    <span class="name-category">Education</span>
                                 </div>
                             </div>
-                            <div class="col-md-3">
-                                <div class="img-bg" src="" alt="">
-                                    <div class="wrapper-inner__img-bg  text-center">
-                                        <span class="icon-category glyphicon glyphicon-picture"></span>
-                                        <span class="name-category">Education</span>
-                                    </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="img-bg" src="" alt="">
+                                <div class="wrapper-inner__img-bg  text-center">
+                                    <span class="icon-category glyphicon glyphicon-picture"></span>
+                                    <span class="name-category">Education</span>
                                 </div>
                             </div>
                         </div>
@@ -179,7 +193,7 @@
                 </div>
             </div>
         </div>
-    </header>
+    </div>
 </div>
 <section class="section-a">
     <div class="container section-a__padding">
@@ -261,7 +275,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="content-icon">
-                            <span class="glyphicon glyphicon-time glyphicon-align-left" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
                         </div>
                     </div>
 
@@ -271,7 +285,7 @@
                 <div class="row row-padding-left">
                     <div class="col-md-2">
                         <div class="content-icon">
-                            <span class="glyphicon glyphicon-headphones glyphicon-align-left" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-headphones" aria-hidden="true"></span>
                         </div>
                     </div>
                     <div class="col-md-10">
@@ -296,7 +310,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="content-icon">
-                            <span class="glyphicon glyphicon-calendar glyphicon-align-left" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
                         </div>
                     </div>
 
@@ -307,7 +321,7 @@
                 <div class="row row-padding-left">
                     <div class="col-md-2">
                         <div class="content-icon">
-                            <span class="glyphicon glyphicon-plane glyphicon-align-left" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-plane" aria-hidden="true"></span>
                         </div>
                     </div>
                     <div class="col-md-10">
