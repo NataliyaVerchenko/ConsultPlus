@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Domine:400,700|Montserrat:400,500,700&subset=cyrillic-ext,latin-ext');
+
+
+#contact-us .header{
+    padding-top: 110px;
+    padding-bottom: 100px;
+}
+
+#contact-us .content-top{
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+#contact-us .wrapper-content-bottom{
+    background: #e7eff1;
+}
+#contact-us .content-bottom{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.main-content h2,.wrapper-content-bottom .content-bottom >.title{
+    color: #343a3b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 33px;
+    text-transform: uppercase;
+
+    /* Text style for "Write to U" */
+    letter-spacing: -1.6px;
+}
